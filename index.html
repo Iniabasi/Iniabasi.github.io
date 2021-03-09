@@ -116,8 +116,8 @@
 	
   <h4>Book an Appointment</h4>
 	  <h5></h5>
-  <h6>Appointment Details</h6>
-
+<form>
+<div class="form-group">
 <div class="dropdown">
   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
     Select a Service
@@ -130,16 +130,19 @@
     <a class="dropdown-item" href="#">Full hair colour $90</a>
   </div>
 </div>
+	</div>
    
   <h6>Pick a date.</h6>
-
+<div class="form-group">
     <input id="datepicker" width="276" />
     <script>
         $('#datepicker').datepicker({
             uiLibrary: 'bootstrap4'
         });
     </script>
- 
+	</div>
+	</div>
+ <div class="form-group">
  <div class="dropdown">
   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
     Select a time
@@ -156,8 +159,9 @@
     <a class="dropdown-item" href="#">18:00</a>
   </div>
 </div>
+	</div>
 
-	<form>
+	
 	<div class="form-group">
  	 <label for="usr">Name:</label>
   	<input type="text" class="form-control" id="usr">
