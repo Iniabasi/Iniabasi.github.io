@@ -1,21 +1,49 @@
 h1{
 	text-align:center;
 }
+
 #col-1 {
-  position: relative;
   width: 30%;
   float: left;
   height: 100%;
   left:300px;
-
+  position: relative;
 }
 
 #col-2 {
-  position: relative;
+  position:relative;
   width: 30%;
   float: left;
   height: 100%;
   left: 450px;
 
 }
+#scissor{
 
+  position: relative;
+  width:250px;
+  float: left;
+  height: auto;
+  left: 500px;
+}
+.jumbotron{
+  padding-top: 15px ;
+  padding-bottom: 15px ;
+
+}
+#text{
+  margin-top:60px;
+	
+}
+#contact{
+  position: relative;
+  float: left;
+  left:770px;
+  top:	50px;
+}
+#contactImg{
+  height:50%;
+  position: relative;
+  left: 200px;
+
+}
